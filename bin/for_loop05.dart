@@ -6,7 +6,14 @@ Args:
 Return: 
   Int: answer
 */
-  return 0;
+num sum = 0;
+for(int i=0;i<numbers.length;i+=1){
+  if(numbers[i]%2==1){
+ sum+=numbers[i];}
+ }
+  return sum.toInt();
 }
 
-void main() {}
+void main() {
+print(func([1,2,3,4]));
+}

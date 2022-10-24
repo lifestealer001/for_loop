@@ -8,7 +8,14 @@ Args:
 Return: 
   Int: answer
 */
-  return 0;
+num sum = 0;
+for(int i=k;i<n;i+=1){
+  if(numbers[i]%2==0){
+ sum+=numbers[i];}
+ }
+  return sum.toInt();
 }
 
-void main() {}
+void main() {
+print(func([1,2,3,4,5,6],2,4));
+}
